@@ -1,0 +1,17 @@
+<h2>{{title}}</h2>
+<h3>Engineering Better World!!!</h3>
+<h3>{{ message }}</h3>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam libero
+  suscipit adipisci inventore error aperiam facilis ipsa perspiciatis aut
+  excepturi repellat, quis unde, at, in impedit natus eaque quas voluptatibus?
+</p>
+
+<h2>two way binding</h2>
+<input [(ngModel)] = "message">
+
+
+<h2>event binding binding</h2>
+<button (click) = "myFunction($event)">click here</button>
+
+<input type="button" [value]="btn_text">
